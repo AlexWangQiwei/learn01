@@ -51,7 +51,7 @@ public class UserController {
         if (userService.updateUserEmail(email) == 1) {
             return new RespBean("success", "开启成功!");
         }
-        System.out.println(1);
+        System.out.println(2);
         return new RespBean("error", "开启失败!");
     }
 }
