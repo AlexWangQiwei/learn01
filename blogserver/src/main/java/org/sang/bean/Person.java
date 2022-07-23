@@ -3,32 +3,27 @@ package org.sang.bean;
 /**
  * Created by sang on 2017/12/17.
  */
-public class RespBean {
-    private String status;
-    private String msg;
-
-    public RespBean() {
+public class Person {
+    public String getName() {
+        return name;
     }
 
-    public RespBean(String status, String msg) {
-
-        this.status = status;
-        this.msg = msg;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getStatus() {
-        return status;
+    public String getAge() {
+        return age;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setAge(String age) {
+        this.age = age;
     }
 
-    public String getMsg() {
-        return msg;
+    private String name;
+    private String age;
+
+    public Person() {
     }
 
-    public void setMsg(String msg) {
-        this.msg = msg;
-    }
 }

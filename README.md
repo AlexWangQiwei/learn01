@@ -83,6 +83,8 @@ git@github.com:lenve/VBlog.git
 # 安装依赖
 npm install
 
+npm cache clean --force
+
 # 在 localhost:8080 启动项目
 npm run dev
 ```  
